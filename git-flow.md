@@ -13,11 +13,11 @@ Useful contents about Git Flow:
 
     sudo apt-get install git-flow
 
-2. Initialize git-flow in the current Git repository. This command will ask you what names you would like te use in your branches:
+2. Initialize git-flow in the current Git repository. This command will ask you what names you would like to use in your branches:
 
     git flow init
 
-3. Create a new feture branch to work in something new. This command will add a default prefix in your branch:
+3. Create a new feature branch to work in something new. This command will add a default prefix in your branch:
 
     git flow feature start <branch_name>
 
