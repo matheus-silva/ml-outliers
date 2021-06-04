@@ -22,3 +22,11 @@ Steps:
 
        git flow feature start <branch_name>
 
+4. Send your commits to a remote branch so that others can see it:
+
+       git flow feature publish <branch_name>
+
+5. Update your local branch:
+
+       git pull
+
