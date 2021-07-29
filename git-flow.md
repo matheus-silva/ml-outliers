@@ -18,15 +18,21 @@ Steps:
 
        git flow init
 
-3. Create a new feature branch to work in something new. This command will add a default prefix in your branch:
+3. Feature:
 
-       git flow feature start <branch_name>
+       1. Create a new feature branch to work in something new. This command will add a default prefix in your branch:
 
-4. Send your commits to a remote branch so that others can see it:
+              git flow feature start <branch_name>
 
-       git flow feature publish <branch_name>
+       2. Send your commits to a remote branch so that others can see it:
 
-5. Update your local branch:
+              git flow feature publish <branch_name>
 
-       git pull
+       3. Update your local branch:
+
+              git pull
+
+       4. Finish a feature. 
+
+              git flow feature finish <branch_name>
 
